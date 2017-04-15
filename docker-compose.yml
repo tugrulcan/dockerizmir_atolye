@@ -1,0 +1,14 @@
+version: '2'
+services:
+  ubuntu:
+    build: ubuntu/
+  nginx:
+    build: nginx/
+  postgres:
+    build: postgres/  
+  redis:
+    build: redis/  
+  aspnetcore:
+    build: aspnetcore/  
+  mssql:
+    build: mssql/
