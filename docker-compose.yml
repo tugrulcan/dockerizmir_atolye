@@ -12,3 +12,5 @@ services:
     build: aspnetcore/  
   mssql:
     build: mssql/
+  java:
+    build: java/
