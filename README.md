@@ -1,2 +1,2 @@
 # dockerizmir_atolye
-Docker İzmir 22/04/2017 Meetup Gerekli Docker Image'ları
+Docker İzmir Meetup için gerekli Docker imagelarının topluca indirilmesi için gerekli docker-compose.yml dosyası
