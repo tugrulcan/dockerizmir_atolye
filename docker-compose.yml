@@ -1,16 +1,17 @@
-version: '2'
+version: '3'
+
 services:
-  ubuntu:
-    build: ubuntu/
-  nginx:
-    build: nginx/
-  postgres:
-    build: postgres/  
-  redis:
-    build: redis/  
-  aspnetcore:
-    build: aspnetcore/  
-  mssql:
-    build: mssql/
   java:
-    build: java/
+    image: java:8
+  ubuntu:
+    image: ubuntu:16.04
+  nginx:
+    image: nginx:latest
+  postgres:
+    image: postgres:9.6
+  redis:
+    image: redis:latest  
+  aspnetcore:
+    image: microsoft/aspnetcore-build:1.1-msbuild  
+  mssql-server:
+    image: microsoft/mssql-server-linux:ctp1-2

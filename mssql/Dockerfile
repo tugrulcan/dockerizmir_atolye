@@ -1,1 +1,0 @@
-FROM microsoft/mssql-server-linux:ctp1-2
